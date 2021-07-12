@@ -23,7 +23,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('myapp.urls',namespace='myapp')),
-    path('album/',include('album.urls',namespace='album'))
+    path('album/',include('album.urls',namespace='album')),
+    path('blog/',include('blog.urls',namespace='blog')),
+    path('carousel/',include('carousellapp.urls',namespace='carousellapp')),
    
 ]
 

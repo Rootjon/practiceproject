@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     
     #my_app
     'myapp',
-    'album'
+    'album',
+    'blog',
+    'carousellapp',
 ]
 
 MIDDLEWARE = [
